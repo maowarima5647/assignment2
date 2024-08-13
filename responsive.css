@@ -1,0 +1,288 @@
+  /* @media screen and (max-width:576px) {
+    .nav-hambar{
+        display:block;
+        color: white;
+        font-size: 30px;
+
+    }
+    .menu{
+        display: none;
+    }
+    .nav-banner{
+        padding: 20px;
+    }
+
+    .img-title {
+      
+    } 
+    .bmi-chart{
+   
+       display: block;
+    }
+
+
+    .team-banner2{
+        width:450px;
+        height:2000px;
+        margin: 0 auto;
+        background-color: #222222;
+        padding: 20px;
+        
+    }
+    .team-banner3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        
+    }
+    .team-pic {
+        position: relative;
+        }
+        .name{
+            position: absolute;
+            color: white;
+            bottom: 40px;
+            left: 25px;
+            font-size: 25px;
+        }
+        .name p {
+            font-size: 20px;
+            color: rgb(224, 217, 217);
+        }
+        .team-pic  h4{
+          
+        }
+        .team-pic{
+        width: 100%;
+        height: 100%;
+         border-radius: 20px;
+        }
+        
+
+}
+
+/*-----chane your habits--*
+
+.practice{
+   border: 1px solid red;
+   flex-direction: column;
+}
+
+.habits{
+    width: 576px;
+    height:600px;
+    padding: 20px;
+    background-color: #242424;
+    margin: 0 auto;
+}
+
+}*/
+
+
+@media screen and (max-width:576px){
+   
+    .nav-banner{
+        width: auto;
+           background-color:#222222;
+           margin: 0 auto;
+           
+       }
+       .fitness {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+       
+           
+       }
+   
+    .nav-hambar{
+        display: block;
+        color: #ddd;
+        font-size: 35px;
+ margin-right: 10px;
+    }
+    .menu,ul{
+    display: none;
+    
+    }
+
+    .circle-div{
+       flex-direction:row;
+       
+    }
+
+
+
+
+    .img-title {
+        flex-direction: column;
+        width:auto;
+        height: auto;
+        overflow: hidden;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+
+    .img{
+        width:100%;
+        height:100%;
+        align-items: center;
+    }
+
+/*-----chane your habits--*/
+.practice{
+    flex-direction: column;
+}
+
+
+.habits{
+        width: auto;
+        height:auto;
+        overflow: hidden;
+        background-color: #242424;
+        margin: 0 auto;
+}
+
+    .footer-title2{
+   flex-direction: column;
+     }
+     .mainrun{
+        flex-direction: column;
+    }
+    #imag{
+        width:100%;
+       height: 100%;
+        border-radius: 18px;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    .scnd-banner h2{
+        font-size:25px;
+         align-items: center;
+     color: white;
+     margin-bottom: 20px;
+     }
+     
+     .habits,p {
+         font-size: 17px;
+         text-align: center;
+         margin-bottom: 20px;
+         color: rgb(222, 222, 222);
+     }
+
+     .movment h3{
+        color: white;
+        text-align: center;
+        margin: 20px;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+
+    .run{
+        width:auto;
+         height:auto;
+        
+         background-color: #222222;
+         padding: 20px;
+     }
+    .bmi-chart{
+   
+      flex-direction: column;
+    }
+    .bmi-banner2{
+        width:auto;
+        height:auto;
+        margin: 0 auto;
+        background-color:#222222;
+        padding: 20px;
+      overflow: hidden;
+    }
+
+    .from-container{
+      flex-direction: column;
+    }
+
+    .from-feild {
+        width:100%;
+     background-color: #242424;
+    }
+
+    .from-feild-textarea{
+        width: 100%;
+    }
+    .from-container{
+      display: flex;
+        
+    }
+
+/*   team sectio */
+    .team-banner3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .team-banner2{
+        width:auto;
+        height:auto;
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: #222222;
+        padding: 20px;
+        
+    }
+    .team-banner,p{
+        color: #ddd;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    .team-pic img{
+        height: 100%;
+        width:100%;
+        border-radius: 20px;
+       }
+
+       .footer-title{
+        width:auto;
+        height:auto;
+        margin: 0 auto;
+        background-color: #242424;
+        padding: 20px;
+        
+        
+    
+    }
+
+    .footer-title3 p{
+        text-align: left;
+    }
+       .footer-title2{
+   
+       flex-direction: column;
+        
+     }
+     
+
+.footer-menu{
+    display: block;
+}
+
+.footer-description,h3 {
+    font-size: 25px;
+    color: #ddd;
+    text-align: left;
+    margin-left: 20px;
+}
+.footer-copyright,p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ddd;
+    text-align: center;
+}
+
+}
